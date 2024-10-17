@@ -1,8 +1,7 @@
 import random
-import sys
 import os
 
-random.seed(123)
+random.seed(1234)
 line_len = 80
 total_len = 10**6  # Use ** for exponentiation
 line_num = total_len // line_len  # 12500
